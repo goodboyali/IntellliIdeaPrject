@@ -22,6 +22,8 @@ public class HelloWorldController {
 
         model.addAttribute("msg", "ALIAA first spring mvc");
         return "HelloWorld.html";
+
+
     }
 
 
