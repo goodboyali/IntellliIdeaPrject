@@ -52,6 +52,8 @@ public class HelloWorldController {
 
             _msg+=_usr.getUSR_ID()+":"+_usr.getUSR_NAME();
         }
+
+
         return _msg;
     }
 
