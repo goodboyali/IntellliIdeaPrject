@@ -21,9 +21,11 @@ public class HelloWorldController {
     public String Test(Model model){
 
         model.addAttribute("msg", "ALIAA first spring mvc");
+
+
+        String _strMaster="MasterChange";
+
         return "HelloWorld.html";
-
-
     }
 
 
