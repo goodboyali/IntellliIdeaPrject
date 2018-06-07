@@ -22,10 +22,15 @@ public class HelloWorldController {
 
         model.addAttribute("msg", "ALIAA first spring mvc");
 
+        String _str="EditBugChange";
+
+
 
         String _strMaster="MasterChange";
 
         return "HelloWorld.html";
+
+
     }
 
 
